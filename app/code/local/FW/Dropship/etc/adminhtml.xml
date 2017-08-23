@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+  <menu>
+      <dropship_menu translate="title" module="dropship">
+          <title>Dropshipping</title> 
+          <sort_order>31</sort_order>
+          <children>
+              <vendors module="dropship">
+                  <title>Manage Vendors</title> 
+                  <action>adminhtml/vendor/index</action>
+              </vendors>
+          </children>
+      </dropship_menu>
+  </menu>
+</config>
